@@ -78,6 +78,7 @@
 }
 
 .menu-list-item{
+    white-space: nowrap;
     color: #3D3D3D;
     font-size: 15px;
     line-height: 40px;
