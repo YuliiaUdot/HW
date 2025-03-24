@@ -82,6 +82,9 @@ main{
 }
 
 .main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
     background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
 }
 
@@ -99,6 +102,7 @@ main{
 }
 
 .slogan{
+    white-space: nowrap;
     padding: 3.5px 40px 2.5px;
     color: #3D3D3D;
     font-family: "Cera Pro Bolt", sans-serif;
@@ -111,6 +115,7 @@ main{
 }
  
 .text{
+    white-space: nowrap;
     padding: 2.5px 43px 44px;
     color: #727272;
     font-family: "Cera Pro Regular", sans-serif;
@@ -144,6 +149,4 @@ main{
     left: 41px;
 }
 
-.bloc{
-    display: flex;
-}
+
