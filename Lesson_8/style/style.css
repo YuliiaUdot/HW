@@ -129,11 +129,14 @@ bottom: 10px;
     font-style: normal;
     font-weight: 700;
     line-height: 16px; /* 53.333% */
-    padding: 0px 174px 7px;
+    line-height: normal;
+    padding-bottom: 7px;
 }
 
 .head-text2{
-    padding: 7px 10px 35px;
+   
+    padding-top: 7px;
+    padding-bottom: 35px;
     color: #727272;
     text-align: center;
     font-family: "Cera Pro Regular", sans-serif;
@@ -176,7 +179,7 @@ bottom: 10px;
 }
 
 .tip{
-    padding: 2px 53px 2px 0px;
+    padding: 0px 53px 2px 0px;
     color: #3D3D3D;
     font-family: "Cera Pro Bolt", sans-serif;
     font-size: 20px;
