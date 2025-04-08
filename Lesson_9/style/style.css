@@ -37,7 +37,6 @@
    align-items: center;
 }
 
-
 /* navigation*/
 
 .page{
@@ -82,34 +81,33 @@
     flex-wrap: wrap;
     justify-content:space-between;
     gap: 33px;
-    position: relative;
  }
 
 .flower img{
     padding: 25px 4px;
     background:#FBFBFB;
 }
-span{
+
+p{
+    font-family: "Cera Pro Regular", sans-serif;   
+    color: #3D3D3D;
+    padding-top: 6px;
+}
+
+p.price{
     font-family: "Cera Pro Regular", sans-serif;
     color:#46A358;
 }
-p{
-    font-family: "Cera Pro Regular", sans-serif;  
-}
 
-.border{
-    border-top: 2px solid #46A358;
-}
-
-.cost{
+span.cost{    
     color: #A5A5A5;
     font-family: "Cera Pro Regular", sans-serif;
     font-style: normal;
     text-decoration:line-through;
     position: absolute;
-    right: 120px;
-    bottom: 1px;
+    left: 70px;
 }
+
 .percent{
     white-space: nowrap;
     padding: 7px 8px;
@@ -122,11 +120,29 @@ p{
     top: 14px;
 }
 
-.svg{
-    display: flex;
-    justify-content: center;
-    gap: 26px;
+/*svg*/
+
+.flower{
+    position: relative;
+}
+
+.flower:hover{
+    border-top: 2px solid #46A358;
+}
+
+.svg-shop{
     position: absolute;
-    right: 365px;
     bottom: 60px;
+    left: 70px;
+    display: flex;
+    gap: 26px;
+  
+}
+
+.flower svg {
+    display: none;
+}
+
+.flower:hover svg{
+    display:inline-block;
 }
