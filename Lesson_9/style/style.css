@@ -124,6 +124,7 @@ span.cost{
 
 .flower{
     position: relative;
+    border-top: 2px solid transparent;
 }
 
 .flower:hover{
