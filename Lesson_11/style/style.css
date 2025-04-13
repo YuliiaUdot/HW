@@ -45,15 +45,13 @@
     justify-content: center;
     flex-wrap: nowrap;
     background-color: #FBFBFB;
-    gap: 10px;
 }
 
 .garden{
     display: flex;
     flex-direction: column;
     gap: 18px;
-    padding: 25px 25px ;
-    border-right: 1px solid #46A3581A;
+    padding: 25px 31px ;
 }
 
 .img1-garden{
@@ -157,7 +155,7 @@ span.join{
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 155px;
+    gap: 157px;
     padding: 25px 23px;
 }
 
@@ -218,8 +216,6 @@ span.join{
     justify-content: center;
     align-items: center;
     background: #FBFBFB;
-    margin-bottom: 6px;
-    border-bottom: 1px solid #46A35833;
 }
 
 .info{
@@ -228,7 +224,7 @@ span.join{
     align-items: center;
     flex-wrap: nowrap;
     padding: 33px 155px 29px 25px;
-    gap: 160px;
+    gap: 162px;
 }
 
 .account{
@@ -311,7 +307,6 @@ span.join{
     background-position: 50% 50%;
 }
 
-
 .payment{
     min-height: 30px;
     min-width: 225px;
@@ -327,3 +322,16 @@ span.join{
     align-items: center;
 }
 
+.line-gray{
+    min-width:  1px;
+    background-image: url(../img/Rectangle-gray.png);
+    background: rgba(70, 163, 88, 0.10);
+}
+
+.line-green{
+    min-width: 1210px;
+    min-height: 1px;
+    background-image: url(../img/Rectangle-green.png);
+    background: rgba(70, 163, 88, 0.20);
+    margin-bottom: 6px;
+}
