@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Cera Pro Regular';
+    src: url('../fonts/CeraPro-Regular.eot') format(eot),
+         url('../fonts/CeraPro-Regular.ttf') format(TrueTupe),
+         url('../fonts/CeraPro-Regular.woff') format(woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Cera Pro Medium';
+    src: url('../fonts/CeraPro-Medium.eot') format(eot),
+         url('../fonts/CeraPro-Medium.ttf') format(TrueTupe), 
+         url('../fonts/CeraPro-Medium.woff') format(woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Cera Pro Bolt';
+    src: url('../fonts/CeraPro-Bold.eot') format(eot), 
+         url('../fonts/CeraPro-Bold.ttf') format(TrueTupe),
+         url('../fonts/CeraPro-Bold.woff') format(woff);
+    font-weight: 700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+.footer-container{
+    padding:  91px 120px 22px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   
+}
+      /*1*/
+
+.container-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: #FBFBFB;
+    gap: 10px;
+}
+
+.garden{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 25px 25px ;
+    border-right: 1px solid #46A3581A;
+}
+
+.img1-garden{
+    min-height: 100px;
+    background-image: url(../img/circle.svg), url(../img/pot.svg), url(../img/cactus.svg) ;
+    background-size: auto, auto, auto;
+    background-repeat: no-repeat;
+    background-position: 0 100%, 15% 95%, 15% 10%; 
+}
+
+.img2-garden{
+    min-height: 100px;
+    background-image: url(../img/circle.svg), url(../img/pot\(1\).svg), url(../img/cactus\(1\).svg) ;
+    background-size: auto, auto, auto;
+    background-repeat: no-repeat;
+    background-position: 0 100%, 15% 95%, 22% 15%; 
+}
+
+.img3-garden{
+    min-height: 100px;
+    background-image: url(../img/circle.svg), url(../img/pot\(2\).svg), url(../img/cactus\(2\).svg) ;
+    background-size: auto, auto, auto;
+    background-repeat: no-repeat;
+    background-position: 0 100%, 10% 95%, 23% 18%; 
+}
+
+.text-cactus{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.footer-title{
+    color: #3D3D3D;
+    font-family: "Cera Pro Bolt", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.footer-text{
+    color: #727272;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+    white-space: nowrap;
+}
+        /**/
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 25px 25px;
+}
+
+.footer-title{
+    padding-top: 12px;
+}
+
+.newsletter .email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #FFF;
+    border-radius: 6px;
+}
+
+.email-text{
+    padding: 12px;
+    color: #ACACAC;
+    font-family: "Cera Pro Regular", sans-serif ;
+    font-style: normal;
+    
+}
+
+span.join{
+    color: #FFF;
+    font-family: "Cera Pro Bolt", sans-serif;
+    font-style: normal;
+    padding: 12px 26px;
+    border-radius: 0px 6px 6px 0px;
+    background: #46A358;
+}
+       /*2*/
+
+.container-2{
+    display: flex;
+    background-image: linear-gradient( 470deg, #EDF6EF, #52C368) ;
+    justify-content: center;
+    align-items: center;
+}
+
+.greenshop-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 155px;
+    padding: 25px 23px;
+}
+
+.location-text{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    min-height: 38px;
+    min-width: 160px;
+    background-image: url(../img/Logo.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.location{
+    min-height: 30px;
+    min-width: 30px;
+    background-image: url(../img/Location.svg);
+    background-repeat: no-repeat;
+    background-position: 0 20%;
+}
+
+.contact-email{
+    min-height: 30px;
+    min-width: 30px;
+    background-image: url(../img/Message.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 60%;
+}
+
+.contact-number{
+    min-height: 30px;
+    min-width: 30px;
+    background-image: url(../img/Calling.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 60%;
+}
+
+.greenshop-text{
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+    white-space: nowrap;
+}
+    /*3*/
+
+.container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FBFBFB;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #46A35833;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 33px 155px 29px 25px;
+    gap: 160px;
+}
+
+.account{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.info-text-title{
+    color: #3D3D3D;
+    font-family: "Cera Pro Bolt", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; 
+    white-space: nowrap;
+}
+
+.info-text{
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    white-space: nowrap;
+}
+
+.messenger{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.fecebook{
+    min-height: 40px;
+    min-width: 40px;
+    background-image: url(../img/Facebook.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+.instsgram{
+    min-height: 40px;
+    min-width: 40px;
+    background-image: url(../img/Instagram.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+.twitter{
+    min-height: 40px;
+    min-width: 40px;
+    background-image: url(../img/Twitter.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+.linkidin{
+    min-height: 40px;
+    min-width: 40px;
+    background-image: url(../img/Linkidin.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+.youtube{
+    min-height: 40px;
+    min-width: 40px;
+    background-image: url(../img/Youtube.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+
+.payment{
+    min-height: 30px;
+    min-width: 225px;
+    background-image: url(../img/payment.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+.container-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
