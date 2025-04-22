@@ -392,7 +392,7 @@ main{
     align-items: flex-start;
     justify-content: center;
     padding-left: 12px;
-    padding-right: 185px;
+    padding-right: 8px;
     font-family: "Cera Pro Regular", sans-serif;
 }
 
@@ -406,6 +406,51 @@ main{
 .green{
     color: #46A358;
     font-family: "Cera Pro Bolt", sans-serif;
+}
+
+/*checkbox*/
+
+.custom-checkbox{
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+
+.custom-checkbox-icon{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #010a58;
+    margin-right: 8px;
+    display: none;
+}
+
+.custom-checkbox-icon::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.custom-checkbox input:checked ~ .custom-checkbox-icon::before{
+    display: block;
+}
+
+.custom-checkbox input{
+    display: none;
+}
+
+.custom-checkbox .label-text{
+    display: flex;
+    justify-content: space-between;
+    width: 264px;
 }
 
 .Sale-Banner{
