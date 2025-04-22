@@ -364,7 +364,7 @@ main{
 
 .left-side{
     background: #FBFBFB;
-    padding: 14px 18px 377px;
+    padding: 14px 18px 19px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -406,6 +406,72 @@ main{
 .green{
     color: #46A358;
     font-family: "Cera Pro Bolt", sans-serif;
+}
+
+/*sidebar second*/
+
+.filter{
+    color: #FFF;
+    font-family: "Cera Pro Bolt", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+    padding: 8px 25px;
+    border-radius: 6px;
+    background: #46A358;
+    border: none;
+}
+.ellipse1{
+    min-height: 15px;
+    min-width: 15px;
+    background-image: url(../icon/Ellipse1.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+.line1{
+    width: 161px;
+    height: 4px;
+    background-image: url(../icon/Line2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+.ellipse2{
+    min-height: 15px;
+    min-width: 15px;
+    background-image: url(../icon/Ellipse2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+.line2{
+    width: 41px;
+    height: 4px;
+    background-image: url(../icon/Line1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+.price-range{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-menu.price{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    gap:20px;
+}
+.menu-list.price{
+    gap: 20px;
 }
 
 /*checkbox*/
@@ -524,7 +590,7 @@ main{
 }
 
 .price{
-    font-family: "Cera Pro Regular", sans-serif;
+    font-family: "Cera Pro Bolt", sans-serif;
     color:#46A358;
 }
 
