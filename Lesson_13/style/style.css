@@ -1203,3 +1203,56 @@ span.join{
         transform: translateY(0) scaleY(1);
     }
 }
+
+/*preloader-body*/
+
+.preloader-body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffffff;
+  }
+
+  .spinner-inner div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 10px solid #5fec58;
+    border-top-color: transparent;
+    border-radius: 50%;
+  }
+  .spinner-inner div{
+    animation: spinner-inner 1s linear infinite;
+    top: 50px;
+    left: 50px;
+  }
+  .spinner-rolling{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    overflow: hidden;
+    background: #ffffff;
+  }
+  .spinner-inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; 
+  }
+  .spinner-inner div{
+     box-sizing: content-box;
+     }
+ 
+
+  @keyframes spinner-inner{
+    0% { transform: translate(-50%,-50%) rotate(0deg); }
+    100% { transform: translate(-50%,-50%) rotate(360deg); }
+  }
+
+  #content{
+    display: none;
+}
