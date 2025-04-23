@@ -1161,3 +1161,45 @@ span.join{
     background: rgba(70, 163, 88, 0.20);
     margin-bottom: 6px;
 }
+
+/*animation*/
+
+.pulsate-image{
+    transition: transform 0.2s ease-in-out; 
+}
+
+.pulsate-image:hover{
+    animation: pulse 1.5s infinite;
+}
+
+ @keyframes pulse{
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+.scale-rotate-svg{
+    transition: transform 0.5s ease-in-out;
+}
+
+.scale-rotate-svg:hover{
+    animation: spring 1s ease-in-out;
+}
+
+@keyframes spring{
+    0% {
+        transform: translateY(0) scaleY(1);
+    }
+    50% {
+        transform: translateY(-20px) scaleY(1.1);
+    }
+    100% {
+        transform: translateY(0) scaleY(1);
+    }
+}
