@@ -403,10 +403,10 @@ main{
     line-height: 40px;
 }
 
-.green{
+/*.green{
     color: #46A358;
     font-family: "Cera Pro Bolt", sans-serif;
-}
+}*/
 
 /*sidebar second*/
 
@@ -517,6 +517,13 @@ main{
     display: flex;
     justify-content: space-between;
     width: 264px;
+}
+
+/**/
+
+.menu-list-item input:checked  ~ .label-text p{
+    color: #46a358;
+    font-family: "Cera Pro Bolt", sans-serif;
 }
 
 .Sale-Banner{
